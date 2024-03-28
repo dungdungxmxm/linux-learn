@@ -1,0 +1,18 @@
+===============Task===========================
+
+Arg: Username -> get list PID and command name for all Process
+
+
+User Id -> get User name 
+User name -> get User ID
+
+Inspecting cat /proc/PID/status -> Get e.g:     Name:	systemd
+                                                Umask:	0000
+                                                State:	S (sleeping)
+                                                Tgid:	1
+                                                Ngid:	0
+                                                Pid:	1
+                                                PPid:	0
+                                                TracerPid:	0
+                                                Uid:	0	0	0	0 -> User ID
+                                                Gid:	0	0	0	0
